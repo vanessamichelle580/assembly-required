@@ -16,38 +16,30 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #f8d7dd;
+  padding: 1.5rem 2rem;
+  background-color: #fffaf7;
+  border-bottom: 2px solid var(--rose-gold);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+/* Removed duplicate .logo selector */
 
-.logo {
-  font-size: 1.8rem;
-  color: var(--rose-gold);
-  font-weight: bold;
-}
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-}
-
+/* Removed duplicate .nav-links selector for maintainability */
+  font-weight: 500;
 .nav-links a {
   text-decoration: none;
-  color: #b76e79;
-  font-weight: 500;
-  transition: all 0.3s ease;
+  color: #5c3b3b;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   color: var(--rose-gold);
-  text-shadow: 0 0 8px var(--shimmer);
 }
-
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
   background: linear-gradient(to right, #fbe4e9, #fff5f8);
 }
 
@@ -167,4 +159,85 @@ body {
 .post-card .read-more:hover {
   background-color: #c89b6f;
   box-shadow: 0 0 12px var(--shimmer);
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Removed duplicate .navbar selector; consolidated above */
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--rose-gold);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #5c3b3b;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover 
+/* Removed duplicate .nav-links a:hover for consistency */
+.hero-banner {
+  position: relative;
+  text-align: center;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #5c3b3b;
+  background-color: rgba(255, 250, 247, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: var(--rose-gold);
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background-color: var(--rose-gold);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px var(--shimmer);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c89b6f;
+  box-shadow: 0 0 14px var(--shimmer);
 }
