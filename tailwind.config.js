@@ -17,6 +17,9 @@ module.exports = {
         darkBrown: '#3D2817'
       }
     },
+    fontFamily:{
+      playfair: ['var(--font-playfair)', 'serif'],
+    }
   },
 },
   plugins: [],
