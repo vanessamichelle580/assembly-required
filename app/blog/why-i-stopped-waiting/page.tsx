@@ -103,7 +103,7 @@ export default function BlogPost() {
           </p>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
-            So I made a plan — because that's what I do best. No was was gonna get between me and my millions!
+            So I made a plan — because that's what I do best. Nothing was gonna get between me and my millions!
           </p>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
@@ -157,7 +157,7 @@ export default function BlogPost() {
           </p>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
-            <em>Assembly Required</em> is the beginning of a new kind of building for me — one rooted in trust curiosity, and movement. I don't know exactly, where this road leads, but that's part of the adventure. My plan — if we can even call it that — is to keep following what feels aligned and share what I discover along the way.
+            <em>Assembly Required</em> is the beginning of a new kind of building for me — one rooted in trust, curiosity, and movement. I don't know exactly where this road leads, but that's part of the adventure. My plan — if we can even call it that — is to keep following what feels aligned and share what I discover along the way.
           </p>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
@@ -165,7 +165,7 @@ export default function BlogPost() {
           </p>
           
           <p className='mb-12 text-brand-darkBrown/90 leading-loose'>
-            I'd love for you to join me on this journey — not because I have all the answer, but because I finally stopped waiting to find them before I began.
+            I'd love for you to join me on this journey — not because I have all the answers, but because I finally stopped waiting to find them before I began.
           </p>
 
           {/* Author Bio Box */}
