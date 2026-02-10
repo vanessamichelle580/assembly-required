@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <main className='min-h-screen bg-brand-warmGray'>
       {/* Full Puzzle Image */}
-      <div className='relative w-full h-[500px] md:h-[600px] lg:h-[800px]'>
+      <div className='relative w-full h-[300px] md:h-[700px] lg:h-[800px]'>
         <Image
           src='/images/hero.png'
           alt='Assembly Required - Building your best life, one piece at a time'
           fill
-          className='object-cover object-[center_30%]'
+          className='object-cover object-center'
           priority
         />
       </div>
