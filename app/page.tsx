@@ -154,7 +154,7 @@ export default function Home() {
                 Sometimes, the version of yourself you're waiting to become only shows up after you begin. A reflection on inspired action, letting go of perfectionism, and building the courage to start before you feel ready.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-darkBrown/60'>February 11, 2026</span>
+                <span className='text-sm text-brand-darkBrown/60'>March 15, 2026</span>
                 <Link
                   href='/blog/why-i-stopped-waiting'
                   className='bg-brand-charcoal hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
