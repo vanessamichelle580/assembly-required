@@ -5,6 +5,29 @@ export default function Home() {
   return (
     <main className='min-h-screen bg-brand-warmGray'>
 
+      {/* --- HERO --- */}
+      <div className="relative w-full h-[60vh] min-h-[500px] md:h-[80vh] lg:h-[90vh] overflow-hidden">
+        <Image
+          src="/images/hero.png"
+          alt="Assembly Required puzzle - building your best life"
+          fill
+          className="object-cover object-center brightness-[1.05] saturate-[1.1] contrast-[0.95]"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
+        <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 md:pb-24 text-center px-6 md:px-12">
+          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white/95 font-light max-w-4xl mx-auto drop-shadow-xl mb-10 md:mb-12 animate-fade-in-up">
+            Built, not born. One stack at a time.
+          </p>
+          <Link
+            href="/blog"
+            className="bg-brand-gold hover:bg-brand-teal text-white font-semibold text-lg md:text-xl px-10 py-5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
+          >
+            Start Building →
+          </Link>
+        </div>
+      </div>
+
       {/* --- NEWSLETTER CTA --- */}
       <section className="w-full bg-brand-warmGray py-16">
         <div className="max-w-2xl mx-auto px-6 text-center">
@@ -29,29 +52,6 @@ export default function Home() {
           </form>
         </div>
       </section>
-
-      {/* --- HERO --- */}
-      <div className="relative w-full h-[60vh] min-h-[500px] md:h-[80vh] lg:h-[90vh] overflow-hidden">
-        <Image
-          src="/images/hero.png"
-          alt="Assembly Required puzzle - building your best life"
-          fill
-          className="object-cover object-center brightness-[1.05] saturate-[1.1] contrast-[0.95]"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 md:pb-24 text-center px-6 md:px-12">
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white/95 font-light max-w-4xl mx-auto drop-shadow-xl mb-10 md:mb-12 animate-fade-in-up">
-            Built, not born. One stack at a time.
-          </p>
-          <Link
-            href="/blog"
-            className="bg-brand-gold hover:bg-brand-teal text-white font-semibold text-lg md:text-xl px-10 py-5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
-          >
-            Start Building →
-          </Link>
-        </div>
-      </div>
 
       {/* --- WELCOME --- */}
       <section className='max-w-4xl mx-auto px-8 py-8 text-center'>
@@ -129,10 +129,10 @@ export default function Home() {
       {/* --- LATEST POST --- */}
       <section className='max-w-6xl mx-auto px-8 py-20'>
         <h2 className='font-playfair text-4xl md:text-5xl font-bold text-center mb-4 text-brand-darkBrown'>
-          Latest From The Blog
+          From The Build Log
         </h2>
         <p className='text-center text-brand-darkBrown/70 mb-12 max-w-2xl mx-auto'>
-          Thoughts, insights, and stories from the journey of building a life worth living.
+          Real reflections, honest experiments, and stories from the journey of building intentionally.
         </p>
         <div className='bg-white rounded-lg shadow-xl overflow-hidden border border-brand-peach/20 hover:shadow-2xl transition-shadow duration-300'>
           <div className='md:flex'>
@@ -144,8 +144,9 @@ export default function Home() {
                 className='object-cover'
               />
             </div>
-            <div className='p-8 md:w-3/5'>
-              <p className='text-brand-peach text-sm font-semibold mb-2'>LATEST POST</p>
+            <div className='p-8 md:w-3/5 border-l-4 border-brand-gold'>
+              <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Mindset</span>
+              <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-playfair text-3xl font-bold mb-4 text-brand-darkBrown'>
                 Why I Stopped Waiting to Feel Ready
               </h3>
@@ -156,7 +157,7 @@ export default function Home() {
                 <span className='text-sm text-brand-darkBrown/60'>February 11, 2026</span>
                 <Link
                   href='/blog/why-i-stopped-waiting'
-                  className='bg-brand-peach hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
+                  className='bg-brand-charcoal hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
                 </Link>
@@ -164,6 +165,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Link
+          href='/blog'
+          className='block text-center text-brand-charcoal hover:text-brand-gold font-semibold mt-8 transition-colors duration-300'
+        >
+          Browse all posts →
+        </Link>
       </section>
 
     </main>
