@@ -138,8 +138,8 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/hero.png'
-                alt='Latest post'
+                src='/images/why-i-stopped-waiting-hero.png'
+                alt='Why I Stopped Waiting to Feel Ready'
                 fill
                 className='object-cover'
               />

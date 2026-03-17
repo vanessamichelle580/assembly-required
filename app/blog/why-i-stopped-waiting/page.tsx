@@ -5,12 +5,13 @@ export default function BlogPost() {
   return (
     <main className='min-h-screen bg-brand-warmGray'>
       {/* Hero Image */}
-      <div className='w-full h-96 relative'>
+      <div className='w-full h-[320px] md:h-[420px] lg:h-[420px] relative'>
         <Image
-          src='/images/puzzle.png'
-          alt='Assembly Required - Puzzle pieces representing building your best life'
+          src='/images/why-i-stopped-waiting-hero.png'
+          alt='Why I Stopped Waiting to Feel Ready'
           fill
           className='object-cover'
+          style={{ objectPosition: '60% 80%' }}
           priority
         />
       </div>
@@ -56,6 +57,14 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             The Illusion of Readiness
           </h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/why-i-stopped-waiting-hour-glass.png'
+              alt='An hourglass representing the illusion of waiting for the right time'
+              fill
+              className='object-cover'
+            />
+          </div>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
             For years, I thought being prepared was the same as being ready. I told myself that once I had the perfect plan, the perfect timing, and maybe a little divine sign from the universe, I'd finally start.
@@ -89,6 +98,14 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             The Perfect Plan
           </h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/why-i-stopped-waiting-blueprint.png'
+              alt='A blueprint representing the perfect plan that never comes together'
+              fill
+              className='object-cover'
+            />
+          </div>
           
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
             Remember I said this all started with a dream … and a plan?
@@ -118,7 +135,15 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             Inspired Action
           </h2>
-          
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/why-i-stopped-waiting-first-piece.png'
+              alt='A puzzle piece representing taking the first step'
+              fill
+              className='object-cover'
+            />
+          </div>
+
           <blockquote className='border-l-4 border-brand-peach pl-6 my-8 italic text-xl text-brand-darkBrown/80'>
             "Readiness doesn't arrive — it reveals itself."
           </blockquote>
