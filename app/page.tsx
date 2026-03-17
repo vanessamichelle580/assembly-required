@@ -4,8 +4,9 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className='min-h-screen bg-brand-warmGray'>
-      {/* Full Puzzle Image */}
-      <div className='relative w-full h-[300px] md:h-[700px] lg:h-[800px]'>
+      
+      {/* Full Puzzle Image - Old Hero Section*/}
+{/*       <div className='relative w-full h-[300px] md:h-[700px] lg:h-[800px]'>
         <Image
           src='/images/hero.png'
           alt='Assembly Required - Building your best life, one piece at a time'
@@ -14,6 +15,42 @@ export default function Home() {
           priority
         />
       </div>
+ */}
+
+      {/* Refined Hero - Complements baked-in image text */}
+  <div className="relative w-full h-[60vh] min-h-[500px] md:h-[80vh] lg:h-[90vh] overflow-hidden">
+  <Image
+    src="/images/hero.png"
+    alt="Assembly Required puzzle - building your best life"
+    fill
+    className="object-cover object-center brightness-[1.05] saturate-[1.1] contrast-[0.95]" // subtle warmth boost – tweak numbers if needed
+    priority
+  />
+  
+  {/* Soft gradient overlay – helps text pop without hiding image details */}
+  <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
+  
+  {/* Content overlay – positioned lower/centered to avoid clashing with main title */}
+  <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 md:pb-24 text-center px-6 md:px-12">
+    {/* Tagline / value prop – warm, inviting, not repeating title */}
+    <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white/95 font-light max-w-4xl mx-auto drop-shadow-xl mb-6 md:mb-10 animate-fade-in-up">
+      Building your best life, one intentional piece at a time
+    </p>
+    
+    {/* Thematic keywords */}
+    <p className="text-lg md:text-xl lg:text-2xl text-white/85 mb-10 md:mb-12 tracking-wide">
+      Mindset • Money • Health • Creation • Growth
+    </p>
+    
+    {/* Prominent CTA – pink/peach brand color, rounded, hover effects */}
+    <Link 
+      href="/blog"  // or /topics, /about – change to your preferred starting point
+      className="bg-brand-peach hover:bg-brand-gold text-white font-semibold text-lg md:text-xl px-10 py-5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
+    >
+      Start Exploring <span aria-hidden="true">→</span>
+    </Link>
+  </div>
+</div>
 
       {/* Welcome Section */}
       <section className='max-w-4xl mx-auto px-8 py-8 text-center'>
