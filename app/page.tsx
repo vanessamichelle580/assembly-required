@@ -138,7 +138,7 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/puzzle.png'
+                src='/images/you-see-lazy-hero.webp'
                 alt='You See Lazy. I See Misalignment.'
                 fill
                 className='object-cover'

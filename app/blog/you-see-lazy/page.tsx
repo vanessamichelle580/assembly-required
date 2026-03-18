@@ -1,8 +1,20 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function BlogPost() {
   return (
     <main className='min-h-screen bg-brand-warmGray'>
+      {/* Hero Image */}
+      <div className='w-full h-[320px] md:h-[420px] lg:h-[420px] relative'>
+        <Image
+          src='/images/you-see-lazy-hero.webp'
+          alt='You See Lazy. I See Misalignment.'
+          fill
+          className='object-cover'
+          priority
+        />
+      </div>
+
       {/* Blog Post Content */}
       <article className='max-w-3xl mx-auto px-8 py-16'>
         {/* Title Section */}
@@ -68,6 +80,14 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             When I Looked Honestly
           </h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/you-see-lazy-section1.jpg'
+              alt='Looking honestly at patterns and behavior'
+              fill
+              className='object-cover'
+            />
+          </div>
 
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
             When I looked honestly at my patterns, something clicked.
@@ -101,6 +121,14 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             Protecting My Capital
           </h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/you-see-lazy-section2.jpg'
+              alt='Protecting mental capital like a trader protects financial capital'
+              fill
+              className='object-cover'
+            />
+          </div>
 
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
             In trading, when a setup is not ready, you do not abandon it. You set an alert. You let it develop. You come back when it is time. You do not stare at every chart all day. You protect your capital.
@@ -126,6 +154,14 @@ export default function BlogPost() {
           <h2 className='font-playfair text-3xl font-bold mt-12 mb-4 text-brand-darkBrown'>
             Are You Measuring From the Right Angle?
           </h2>
+          <div className='relative w-full h-64 md:h-80 rounded-lg overflow-hidden my-6'>
+            <Image
+              src='/images/you-see-lazy-section3.jpg'
+              alt='Measuring yourself from the right angle'
+              fill
+              className='object-cover'
+            />
+          </div>
 
           <p className='mb-6 text-brand-darkBrown/90 leading-loose'>
             If you have been looking around at everyone else and wondering why you are not keeping up, consider the words of Henry David Thoreau.
