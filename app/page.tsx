@@ -138,8 +138,8 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/why-i-stopped-waiting-hero.png'
-                alt='Why I Stopped Waiting to Feel Ready'
+                src='/images/puzzle.png'
+                alt='You See Lazy. I See Misalignment.'
                 fill
                 className='object-cover'
               />
@@ -148,15 +148,15 @@ export default function Home() {
               <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Mindset</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-playfair text-3xl font-bold mb-4 text-brand-darkBrown'>
-                Why I Stopped Waiting to Feel Ready
+                You See Lazy. I See Misalignment.
               </h3>
               <p className='text-brand-darkBrown/80 mb-6 leading-relaxed'>
-                Sometimes, the version of yourself you're waiting to become only shows up after you begin. A reflection on inspired action, letting go of perfectionism, and building the courage to start before you feel ready.
+                What if the story you've been telling yourself about consistency and execution is just the wrong angle? A reflection on reframing identity, protecting mental capital, and moving at your own pace.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-darkBrown/60'>March 15, 2026</span>
+                <span className='text-sm text-brand-darkBrown/60'>February 28, 2026</span>
                 <Link
-                  href='/blog/why-i-stopped-waiting'
+                  href='/blog/you-see-lazy'
                   className='bg-brand-charcoal hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
