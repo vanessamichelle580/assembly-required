@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className='min-h-screen bg-brand-warmGray'>
+    <main className='min-h-screen bg-brand-cream'>
 
       {/* --- HERO --- */}
       <div className="relative w-full h-[60vh] min-h-[500px] md:h-[80vh] lg:h-[90vh] overflow-hidden">
@@ -29,19 +29,19 @@ export default function Home() {
       </div>
 
       {/* --- NEWSLETTER CTA --- */}
-      <section className="w-full bg-brand-warmGray py-16">
+      <section className="w-full bg-brand-cream py-16">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-brand-charcoal">
+          <h2 className="font-cormorant text-4xl md:text-5xl font-bold mb-4 text-brand-espresso">
             Get The Build Brief
           </h2>
-          <p className="text-brand-charcoal/70 text-lg mb-8 leading-relaxed">
+          <p className="text-brand-brown/70 text-lg mb-8 leading-relaxed">
             A weekly dispatch of one framework, one habit stack, and one actionable prompt — delivered every Tuesday.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 justify-center">
             <input
               type="email"
               placeholder="your@email.com"
-              className="flex-1 px-5 py-3 rounded-full border border-brand-charcoal/20 bg-white text-brand-charcoal placeholder-brand-charcoal/40 focus:outline-none focus:ring-2 focus:ring-brand-gold"
+              className="flex-1 px-5 py-3 rounded-full border border-brand-brown/20 bg-white text-brand-brown placeholder-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-gold"
             />
             <button
               type="submit"
@@ -55,10 +55,10 @@ export default function Home() {
 
       {/* --- WELCOME --- */}
       <section className='max-w-4xl mx-auto px-8 py-8 text-center'>
-        <h2 className='font-playfair text-4xl md:text-5xl font-bold mb-6 text-brand-darkBrown'>
+        <h2 className='font-cormorant text-4xl md:text-5xl font-bold mb-6 text-brand-brown'>
           You're Not Behind. You're Just Mid-Assembly.
         </h2>
-        <p className='text-xl text-brand-darkBrown/80 leading-relaxed mb-8'>
+        <p className='text-xl text-brand-brown/80 leading-relaxed mb-8'>
           Assembly Required is a field guide for the intentional builder — the person who knows a better life isn't found, it's designed. One habit, one mindset shift, one system at a time.
         </p>
         <div className='border-b-2 border-brand-gold max-w-xs mx-auto mt-8' />
@@ -67,58 +67,58 @@ export default function Home() {
       {/* --- PILLARS --- */}
       <section className='bg-white py-20'>
         <div className='max-w-6xl mx-auto px-8'>
-          <h2 className='font-playfair text-4xl md:text-5xl font-bold text-center mb-4 text-brand-darkBrown'>
+          <h2 className='font-cormorant text-4xl md:text-5xl font-bold text-center mb-4 text-brand-brown'>
             What We Build Here
           </h2>
-          <p className='text-center text-brand-darkBrown/70 mb-12 max-w-2xl mx-auto'>
+          <p className='text-center text-brand-brown/70 mb-12 max-w-2xl mx-auto'>
             Four pillars. One system. Built for the person who's done waiting and ready to design.
           </p>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
             <div className='bg-white p-6 rounded-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-brand-gold'>
               <div className='font-mono text-sm tracking-widest uppercase text-brand-gold mb-4'>01</div>
-              <h3 className='font-playfair text-2xl font-bold mb-3 text-brand-darkBrown'>
+              <h3 className='font-cormorant text-2xl font-bold mb-3 text-brand-brown'>
                 Habit Architecture
               </h3>
-              <p className='text-brand-darkBrown/80 mb-4 leading-relaxed'>
+              <p className='text-brand-brown/80 mb-4 leading-relaxed'>
                 Building stackable behaviors that stick — without relying on willpower or motivation.
               </p>
-              <Link href='/' className='text-brand-peach hover:text-brand-gold font-semibold transition-colors'>
+              <Link href='/' className='text-brand-rose hover:text-brand-gold font-semibold transition-colors'>
                 Explore →
               </Link>
             </div>
             <div className='bg-white p-6 rounded-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-brand-gold'>
               <div className='font-mono text-sm tracking-widest uppercase text-brand-gold mb-4'>02</div>
-              <h3 className='font-playfair text-2xl font-bold mb-3 text-brand-darkBrown'>
+              <h3 className='font-cormorant text-2xl font-bold mb-3 text-brand-brown'>
                 Wealth & Trading
               </h3>
-              <p className='text-brand-darkBrown/80 mb-4 leading-relaxed'>
+              <p className='text-brand-brown/80 mb-4 leading-relaxed'>
                 Financial growth, trading mindset, and building income systems with intention and strategy.
               </p>
-              <Link href='/' className='text-brand-peach hover:text-brand-gold font-semibold transition-colors'>
+              <Link href='/' className='text-brand-rose hover:text-brand-gold font-semibold transition-colors'>
                 Explore →
               </Link>
             </div>
             <div className='bg-white p-6 rounded-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-brand-gold'>
               <div className='font-mono text-sm tracking-widest uppercase text-brand-gold mb-4'>03</div>
-              <h3 className='font-playfair text-2xl font-bold mb-3 text-brand-darkBrown'>
+              <h3 className='font-cormorant text-2xl font-bold mb-3 text-brand-brown'>
                 The Build Log
               </h3>
-              <p className='text-brand-darkBrown/80 mb-4 leading-relaxed'>
+              <p className='text-brand-brown/80 mb-4 leading-relaxed'>
                 Real experiments, honest reflections, and the developer journey documented in real time.
               </p>
-              <Link href='/' className='text-brand-peach hover:text-brand-gold font-semibold transition-colors'>
+              <Link href='/' className='text-brand-rose hover:text-brand-gold font-semibold transition-colors'>
                 Explore →
               </Link>
             </div>
             <div className='bg-white p-6 rounded-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-brand-gold'>
               <div className='font-mono text-sm tracking-widest uppercase text-brand-gold mb-4'>04</div>
-              <h3 className='font-playfair text-2xl font-bold mb-3 text-brand-darkBrown'>
+              <h3 className='font-cormorant text-2xl font-bold mb-3 text-brand-brown'>
                 Identity Blueprints
               </h3>
-              <p className='text-brand-darkBrown/80 mb-4 leading-relaxed'>
+              <p className='text-brand-brown/80 mb-4 leading-relaxed'>
                 Mindset work framed as redesigning who you're becoming — not fixing who you are.
               </p>
-              <Link href='/' className='text-brand-peach hover:text-brand-gold font-semibold transition-colors'>
+              <Link href='/' className='text-brand-rose hover:text-brand-gold font-semibold transition-colors'>
                 Explore →
               </Link>
             </div>
@@ -128,13 +128,13 @@ export default function Home() {
 
       {/* --- LATEST POST --- */}
       <section className='max-w-6xl mx-auto px-8 py-20'>
-        <h2 className='font-playfair text-4xl md:text-5xl font-bold text-center mb-4 text-brand-darkBrown'>
+        <h2 className='font-cormorant text-4xl md:text-5xl font-bold text-center mb-4 text-brand-brown'>
           From The Build Log
         </h2>
-        <p className='text-center text-brand-darkBrown/70 mb-12 max-w-2xl mx-auto'>
+        <p className='text-center text-brand-brown/70 mb-12 max-w-2xl mx-auto'>
           Real reflections, honest experiments, and stories from the journey of building intentionally.
         </p>
-        <div className='bg-white rounded-lg shadow-xl overflow-hidden border border-brand-peach/20 hover:shadow-2xl transition-shadow duration-300'>
+        <div className='bg-white rounded-lg shadow-xl overflow-hidden border border-brand-rose/20 hover:shadow-2xl transition-shadow duration-300'>
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
@@ -147,17 +147,17 @@ export default function Home() {
             <div className='p-8 md:w-3/5 border-l-4 border-brand-gold'>
               <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Mindset</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
-              <h3 className='font-playfair text-3xl font-bold mb-4 text-brand-darkBrown'>
+              <h3 className='font-cormorant text-3xl font-bold mb-4 text-brand-brown'>
                 You See Lazy. I See Misalignment.
               </h3>
-              <p className='text-brand-darkBrown/80 mb-6 leading-relaxed'>
+              <p className='text-brand-brown/80 mb-6 leading-relaxed'>
                 What if the story you've been telling yourself about consistency and execution is just the wrong angle? A reflection on reframing identity, protecting mental capital, and moving at your own pace.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-darkBrown/60'>February 28, 2026</span>
+                <span className='text-sm text-brand-brown/60'>February 28, 2026</span>
                 <Link
                   href='/blog/you-see-lazy'
-                  className='bg-brand-charcoal hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
+                  className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
                 </Link>
@@ -167,7 +167,7 @@ export default function Home() {
         </div>
         <Link
           href='/blog'
-          className='block text-center text-brand-charcoal hover:text-brand-gold font-semibold mt-8 transition-colors duration-300'
+          className='block text-center text-brand-espresso hover:text-brand-gold font-semibold mt-8 transition-colors duration-300'
         >
           Browse all posts →
         </Link>

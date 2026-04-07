@@ -9,24 +9,21 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          blush: '#F5FEB6',
-          peach: '#D85985',
-          cream: '#EFFFE9',
-          gold: '#C8922A',         // updated to A+C gold
-          warmGray: '#F5F0E8',     // fixed missing #
-          darkBrown: '#3D2817',
-          charcoal: '#1E2432',     // new - A+C deep charcoal
-          teal: '#3D8C8C',         // new - A+C muted teal
-          amber: '#C8922A',        // new - A+C accent
+          espresso: '#2C1F14',   // primary dark background
+          cream: '#F5F0E8',      // primary light background
+          gold: '#C9A84C',       // gold accent
+          taupe: '#C4B5A5',      // warm taupe
+          brown: '#5C4A3E',      // deep warm brown
+          teal: '#4A8B8B',       // dusty teal
+          rose: '#C4848A',       // dusty rose
         }
       },
       fontFamily: {
-        playfair: ['var(--font-playfair)', 'serif'],
-        inter: ['var(--font-inter)', 'sans-serif'],  // add Inter for body
+        cormorant: ['var(--font-cormorant)', 'serif'],
+        lora: ['var(--font-lora)', 'serif'],
+        raleway: ['var(--font-raleway)', 'sans-serif'],
       }
     },
   },
   plugins: [],
 }
-
-

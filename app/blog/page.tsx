@@ -26,16 +26,16 @@ const posts = [
 
 export default function BlogIndex() {
   return (
-    <main className='min-h-screen bg-brand-warmGray'>
+    <main className='min-h-screen bg-brand-cream'>
       <section className='max-w-4xl mx-auto px-8 py-20'>
         <header className='mb-12 text-center'>
-          <Link href='/' className='text-brand-peach hover:text-brand-gold mb-6 inline-block'>
+          <Link href='/' className='text-brand-rose hover:text-brand-gold mb-6 inline-block'>
             ← Back to Home
           </Link>
-          <h1 className='font-playfair text-5xl md:text-6xl font-bold mb-4 text-brand-darkBrown'>
+          <h1 className='font-cormorant text-5xl md:text-6xl font-bold mb-4 text-brand-brown'>
             The Build Log
           </h1>
-          <p className='text-xl text-brand-darkBrown/70 max-w-2xl mx-auto'>
+          <p className='text-xl text-brand-brown/70 max-w-2xl mx-auto'>
             Real reflections, honest experiments, and stories from the journey of building intentionally.
           </p>
           <div className='border-b-2 border-brand-gold max-w-xs mx-auto mt-8' />
@@ -45,7 +45,7 @@ export default function BlogIndex() {
           {posts.map((post) => (
             <div
               key={post.slug}
-              className='bg-white rounded-lg shadow-lg overflow-hidden border border-brand-peach/20 hover:shadow-xl transition-shadow duration-300'
+              className='bg-white rounded-lg shadow-lg overflow-hidden border border-brand-rose/20 hover:shadow-xl transition-shadow duration-300'
             >
               <div className='md:flex'>
                 <div className='md:w-2/5 relative h-56 md:h-auto'>
@@ -60,17 +60,17 @@ export default function BlogIndex() {
                   <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-3'>
                     {post.tag}
                   </span>
-                  <h2 className='font-playfair text-2xl md:text-3xl font-bold mb-3 text-brand-darkBrown'>
+                  <h2 className='font-cormorant text-2xl md:text-3xl font-bold mb-3 text-brand-brown'>
                     {post.title}
                   </h2>
-                  <p className='text-brand-darkBrown/80 mb-6 leading-relaxed'>
+                  <p className='text-brand-brown/80 mb-6 leading-relaxed'>
                     {post.excerpt}
                   </p>
                   <div className='flex items-center justify-between'>
-                    <span className='text-sm text-brand-darkBrown/60'>{post.date}</span>
+                    <span className='text-sm text-brand-brown/60'>{post.date}</span>
                     <Link
                       href={`/blog/${post.slug}`}
-                      className='bg-brand-charcoal hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
+                      className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                     >
                       Read Full Post →
                     </Link>
