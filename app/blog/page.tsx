@@ -3,6 +3,16 @@ import Link from 'next/link';
 
 const posts = [
   {
+    slug: 'before-you-can-build',
+    title: 'Before You Can Build, You Have to Cut',
+    excerpt:
+      'A trading concept called negation — identifying what you are not doing to reveal what you are — turns out to be the most useful framework for building a life. A reflection on leaving corporate, cutting what no longer fits, and finding clarity through elimination.',
+    date: 'April 23, 2026',
+    tag: 'Build in Motion',
+    image: '/images/ar-negation-hero.png',
+    imageAlt: 'Before You Can Build, You Have to Cut',
+  },
+  {
     slug: 'you-see-lazy',
     title: 'You See Lazy. I See Misalignment.',
     excerpt:

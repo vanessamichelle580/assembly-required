@@ -138,25 +138,25 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/you-see-lazy-hero.webp'
-                alt='You See Lazy. I See Misalignment.'
+                src='/images/ar-negation-hero.png'
+                alt='Before You Can Build, You Have to Cut'
                 fill
                 className='object-cover'
               />
             </div>
             <div className='p-8 md:w-3/5 border-l-4 border-brand-gold'>
-              <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Mindset</span>
+              <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Build in Motion</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-cormorant text-3xl font-bold mb-4 text-brand-brown'>
-                You See Lazy. I See Misalignment.
+                Before You Can Build, You Have to Cut
               </h3>
               <p className='text-brand-brown/80 mb-6 leading-relaxed'>
-                What if the story you've been telling yourself about consistency and execution is just the wrong angle? A reflection on reframing identity, protecting mental capital, and moving at your own pace.
+                A trading concept called negation — identifying what you are not doing to reveal what you are — turns out to be the most useful framework for building a life.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-brown/60'>February 28, 2026</span>
+                <span className='text-sm text-brand-brown/60'>April 23, 2026</span>
                 <Link
-                  href='/blog/you-see-lazy'
+                  href='/blog/before-you-can-build'
                   className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
