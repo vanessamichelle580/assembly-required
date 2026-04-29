@@ -3,6 +3,16 @@ import Link from 'next/link';
 
 const posts = [
   {
+    slug: 'i-quit-the-same-job-twice',
+    title: 'I Quit the Same Job Twice. The Second Time Was the Right One.',
+    excerpt:
+      'There is something humbling about resigning from a job you already resigned from once before. On incompatibility, what building on the outside taught me, and why leaving the second time felt less like a leap of faith and more like finally admitting what I already knew.',
+    date: 'April 28, 2026',
+    tag: 'Build in Motion',
+    image: '/images/ar-resignation-hero.png',
+    imageAlt: 'I Quit the Same Job Twice. The Second Time Was the Right One.',
+  },
+  {
     slug: 'before-you-can-build',
     title: 'Before You Can Build, You Have to Cut',
     excerpt:

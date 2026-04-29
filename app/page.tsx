@@ -138,8 +138,8 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/ar-negation-hero.png'
-                alt='Before You Can Build, You Have to Cut'
+                src='/images/ar-resignation-hero.png'
+                alt='I Quit the Same Job Twice. The Second Time Was the Right One.'
                 fill
                 className='object-cover'
               />
@@ -148,15 +148,15 @@ export default function Home() {
               <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Build in Motion</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-cormorant text-3xl font-bold mb-4 text-brand-brown'>
-                Before You Can Build, You Have to Cut
+                I Quit the Same Job Twice. The Second Time Was the Right One.
               </h3>
               <p className='text-brand-brown/80 mb-6 leading-relaxed'>
-                A trading concept called negation — identifying what you are not doing to reveal what you are — turns out to be the most useful framework for building a life.
+                On incompatibility, what building on the outside taught me, and why leaving the second time felt less like a leap of faith and more like finally admitting what I already knew.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-brown/60'>April 23, 2026</span>
+                <span className='text-sm text-brand-brown/60'>April 28, 2026</span>
                 <Link
-                  href='/blog/before-you-can-build'
+                  href='/blog/i-quit-the-same-job-twice'
                   className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
