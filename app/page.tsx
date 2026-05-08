@@ -138,8 +138,8 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/ar-resignation-hero.png'
-                alt='I Quit the Same Job Twice. The Second Time Was the Right One.'
+                src='/images/ar-scared-hero.png'
+                alt='Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You'
                 fill
                 className='object-cover'
               />
@@ -148,15 +148,15 @@ export default function Home() {
               <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Build in Motion</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-cormorant text-3xl font-bold mb-4 text-brand-brown'>
-                I Quit the Same Job Twice. The Second Time Was the Right One.
+                Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You
               </h3>
               <p className='text-brand-brown/80 mb-6 leading-relaxed'>
-                On incompatibility, what building on the outside taught me, and why leaving the second time felt less like a leap of faith and more like finally admitting what I already knew.
+                The AI panic is real. But so is the fear economy built around it. A field guide to reading the room, reframing the disruption, and deciding what to do with the fear that keeps you up at night.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-brown/60'>April 28, 2026</span>
+                <span className='text-sm text-brand-brown/60'>May 8, 2026</span>
                 <Link
-                  href='/blog/i-quit-the-same-job-twice'
+                  href='/blog/scared-into-progression'
                   className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →

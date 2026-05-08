@@ -3,6 +3,16 @@ import Link from 'next/link';
 
 const posts = [
   {
+    slug: 'scared-into-progression',
+    title: 'Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You',
+    excerpt:
+      'The AI panic is real. But so is the fear economy built around it. A field guide to reading the room, reframing the disruption, and deciding what to actually do with the fear that keeps you up at night.',
+    date: 'May 8, 2026',
+    tag: 'Build in Motion',
+    image: '/images/ar-scared-hero.png',
+    imageAlt: 'Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You',
+  },
+  {
     slug: 'i-quit-the-same-job-twice',
     title: 'I Quit the Same Job Twice. The Second Time Was the Right One.',
     excerpt:
