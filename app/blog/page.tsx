@@ -3,6 +3,16 @@ import Link from 'next/link';
 
 const posts = [
   {
+    slug: 'you-dont-have-to-blow-it-up',
+    title: 'You Don\'t Have to Blow It Up',
+    excerpt:
+      'Taking inventory of what you\'ve already built, finding the one gap worth solving, and starting before you have the full picture.',
+    date: 'May 12, 2026',
+    tag: 'Build in Motion',
+    image: '/images/ar-blow-up-hero.png',
+    imageAlt: 'You Don\'t Have to Blow It Up — Scared Into Progression, Part 2',
+  },
+  {
     slug: 'scared-into-progression',
     title: 'Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You',
     excerpt:
