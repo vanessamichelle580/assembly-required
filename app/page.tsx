@@ -138,25 +138,25 @@ export default function Home() {
           <div className='md:flex'>
             <div className='md:w-2/5 relative h-64 md:h-auto'>
               <Image
-                src='/images/ar-scared-hero.png'
-                alt='Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You'
+                src='/images/ar-blow-up-hero.png'
+                alt='You Don&apos;t Have to Blow It Up — Scared Into Progression, Part 2'
                 fill
-                className='object-cover'
+                className='object-cover object-top'
               />
             </div>
             <div className='p-8 md:w-3/5 border-l-4 border-brand-gold'>
               <span className='inline-block text-xs text-brand-teal border border-brand-teal rounded-full px-3 py-1 mb-2'>Build in Motion</span>
               <p className='text-brand-teal text-sm font-semibold mb-2'>LATEST POST</p>
               <h3 className='font-cormorant text-3xl font-bold mb-4 text-brand-brown'>
-                Scared Into Progression: Why the AI Panic Might Be the Best Thing That Ever Happened to You
+                You Don&apos;t Have to Blow It Up
               </h3>
               <p className='text-brand-brown/80 mb-6 leading-relaxed'>
-                The AI panic is real. But so is the fear economy built around it. A field guide to reading the room, reframing the disruption, and deciding what to do with the fear that keeps you up at night.
+                Taking inventory of what you&apos;ve already built, finding the one gap worth solving, and starting before you have the full picture.
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm text-brand-brown/60'>May 8, 2026</span>
+                <span className='text-sm text-brand-brown/60'>May 12, 2026</span>
                 <Link
-                  href='/blog/scared-into-progression'
+                  href='/blog/you-dont-have-to-blow-it-up'
                   className='bg-brand-espresso hover:bg-brand-gold text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300'
                 >
                   Read Full Post →
