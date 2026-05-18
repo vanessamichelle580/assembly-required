@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { KitForm } from '@/components/KitForm';
 
 export default function Home() {
   return (
@@ -27,31 +28,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
-      {/* --- NEWSLETTER CTA --- */}
-      <section className="w-full bg-brand-cream py-16">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold mb-4 text-brand-espresso">
-            Get The Build Brief
-          </h2>
-          <p className="text-brand-brown/70 text-lg mb-8 leading-relaxed">
-            A weekly dispatch of one framework, one habit stack, and one actionable prompt — delivered every Tuesday.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 justify-center">
-            <input
-              type="email"
-              placeholder="your@email.com"
-              className="flex-1 px-5 py-3 rounded-full border border-brand-brown/20 bg-white text-brand-brown placeholder-brand-brown/40 focus:outline-none focus:ring-2 focus:ring-brand-gold"
-            />
-            <button
-              type="submit"
-              className="bg-brand-gold hover:bg-brand-teal text-white font-semibold px-8 py-3 rounded-full transition-colors duration-300 whitespace-nowrap"
-            >
-              Join the Build
-            </button>
-          </form>
-        </div>
-      </section>
 
       {/* --- WELCOME --- */}
       <section className='max-w-4xl mx-auto px-8 py-8 text-center'>
@@ -171,6 +147,13 @@ export default function Home() {
         >
           Browse all posts →
         </Link>
+      </section>
+
+      {/* --- NEWSLETTER CTA --- */}
+      <section className="w-full bg-brand-cream py-16">
+        <div className="max-w-2xl mx-auto px-6">
+          <KitForm />
+        </div>
       </section>
 
     </main>
